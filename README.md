@@ -6,7 +6,7 @@ Bienvenue ! Ce dépôt présente mon premier projet Power BI : un **dashboard in
 
 Ce projet a été réalisé dans le cadre du cours gratuit **[Power BI for Data Analytics](https://www.youtube.com/watch?v=FwjaHCVNBWA)** de [Luke Barousse](https://www.linkedin.com/in/luke-b).
 
-![Power BI for Data Analytics](/Resources/images/0_PowerBI_Thubmnail.png)
+![Power BI for Data Analytics](Resources/images/0_PowerBI_Thubmnail.png)
 
 ---
 
@@ -20,19 +20,21 @@ Répondre à des questions concrètes que se pose toute personne qui souhaite tr
 - 🌍 Où se trouvent les offres, et quelle part est en télétravail ?
 - 🎓 Les employeurs exigent-ils un diplôme ou une assurance santé est-elle proposée ?
 
----
 
+
+---
+![Projet 1 – Vue d'ensemble](/Resources/images/Project1_Dashboard_Overview.gif)
 ## 🖥️ Aperçu du dashboard
 
 ### Page 1 – Vue d'ensemble du marché
 Une vue globale des offres d'emploi : nombre d'offres, salaires médians, répartition par type de poste, localisation et tendance mensuelle.
 
-![Page 1 – Vue d'ensemble](/Resources/images/project1_page1.png)
+![Page 1 – Vue d'ensemble](/Resources/images/Project1_Dashboard_Page1.gif)
 
 ### Page 2 – Analyse détaillée (drill-through)
 Une page d'exploration accessible par **drill-through** : en cliquant sur un métier depuis la page 1, on accède au détail de ce poste (compétences demandées, salaires, entreprises qui recrutent…).
 
-![Page 2 – Drill-through](/Resources/images/project1_page2.png)
+![Page 2 – Drill-through](/Resources/images/Project1_Dashboard_Page2.gif)
 
 ---
 
