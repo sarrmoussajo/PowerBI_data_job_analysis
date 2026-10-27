@@ -5,9 +5,6 @@
 Bienvenue ! Ce dépôt présente mon premier projet Power BI : un **dashboard interactif de deux pages** qui analyse le marché de l'emploi dans les métiers de la data (Data Analyst, Data Scientist, Data Engineer…) à partir d'offres d'emploi réelles publiées en 2024.
 
 Ce projet a été réalisé dans le cadre du cours gratuit **[Power BI for Data Analytics](https://www.youtube.com/watch?v=FwjaHCVNBWA)** de [Luke Barousse](https://www.linkedin.com/in/luke-b).
-
-![Power BI for Data Analytics](Resources/images/0_PowerBI_Thubmnail.png)
-
 ---
 
 ## 🎯 Objectif du projet
@@ -23,30 +20,46 @@ Répondre à des questions concrètes que se pose toute personne qui souhaite tr
 
 
 ---
-![Projet 1 – Vue d'ensemble](/Resources/images/Project1_Dashboard_Overview.gif)
-## 🖥️ Aperçu du dashboard
+![Projet – Vue d'ensemble](/Resources/images/Project1_Dashboard_Overview.gif)
+## 🖥️ Aperçu du dashboard Projet 1.0
 
 ### Page 1 – Vue d'ensemble du marché
 Une vue globale des offres d'emploi : nombre d'offres, salaires médians, répartition par type de poste, localisation et tendance mensuelle.
 
-![Page 1 – Vue d'ensemble](/Resources/images/Project1_Dashboard_Page1.gif)
+![Partie 1.0 – Vue d'ensemble](/Resources/images/Project1_Dashboard_Page1.gif)
 
 ### Page 2 – Analyse détaillée (drill-through)
 Une page d'exploration accessible par **drill-through** : en cliquant sur un métier depuis la page 1, on accède au détail de ce poste (compétences demandées, salaires, entreprises qui recrutent…).
 
-![Page 2 – Drill-through](/Resources/images/Project1_Dashboard_Page2.gif)
+![Partie 1.0 – Vue détaillée (Drill-through)](/Resources/images/Project1_Dashboard_Page2.gif)
 
 ---
+## 🖥️ Aperçu du dashboard Projet 2.0
+### Page 1 – Vue d'ensemble changeable selon les paramétres définis
+Après avoir réaliser la transformation sur Power Query puis avec DAX, les paramètres, les cartes, les graphiques et le changements de thème nous avons réalisé ce dashboard pour répondre aux questions : quelles sont les meilleures compétences dans la science des données ? Quels sont les métiers les mieux payés dans ce domaine ? 
+![Partie 1.0 – Vue détaillée (Drill-through)](/Resources/images/Project2_Dashboard_Page1.png)
 
+
+---
 ## ✨ Fonctionnalités principales
 
 | Fonctionnalité | Description |
 |---|---|
 | 📈 **Cartes KPI** | Nombre d'offres, salaire médian annuel et horaire, part du télétravail |
 | 🔍 **Drill-through** | Navigation de la vue globale vers le détail d'un métier |
-| 🎛️ **Filtres interactifs** | Segments (slicers) par métier, pays, période, type de contrat |
-| 📊 **Visuels variés** | Graphiques en barres, courbes, cartes géographiques, matrices, jauges |
-| 🔄 **Interactions croisées** | Un clic sur un visuel filtre automatiquement les autres |
+| 🎛️ **Filtres interactifs (Slicers)** | Filtrage par métier, pays, période et type de contrat, selon les données disponibles |
+| 📊 **Visuels variés** | Graphiques en barres, courbes, cartes géographiques, matrices et autres visuels adaptés à l'analyse |
+| 🔄 **Interactions croisées** | Sélection d'un élément d'un visuel pour filtrer ou mettre en évidence les données des autres visuels, selon leur configuration |
+| 🔖 **Signets (Bookmarks)** | Enregistrement d'états du rapport pour faciliter la navigation entre différentes vues |
+| 🔘 **Boutons de navigation** | Navigation entre les pages du rapport et déclenchement d'actions prédéfinies |
+| 🧹 **Power Query (ETL)** | Importation, nettoyage et transformation des données avant leur analyse |
+| 🗂️ **Modélisation des données** | Organisation des tables et définition de leurs relations pour structurer l'analyse |
+| 🧮 **Mesures DAX** | Calcul d'indicateurs dynamiques tels que les médianes salariales, les ratios et les comptages |
+| 🧱 **Colonnes calculées** | Création de nouvelles colonnes à l'aide de formules DAX pour enrichir les données |
+| 🗃️ **Tables calculées** | Création de tables dérivées avec DAX pour répondre aux besoins de modélisation |
+| ⚙️ **Paramètres** | Utilisation de paramètres pour rendre certaines analyses plus flexibles, selon leur configuration |
+| 🎨 **Mise en forme** | Harmonisation des couleurs, des titres, des formats numériques et de la disposition des visuels |
+| 📖 **Data Storytelling** | Organisation du rapport pour guider l'utilisateur de la vue globale vers une analyse détaillée du marché de l'emploi Data |
 
 ---
 
